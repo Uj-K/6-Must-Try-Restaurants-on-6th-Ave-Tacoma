@@ -1,4 +1,4 @@
-## 9-Must-Try-Restaurants-in-Tacoma
+## 6 Must-Try Restaurants in 6th Ave Tacoma
 Using API, framework, library, etc. display my favorite restaurant on a map and provide brief information about each restaurant.
 
 ## List of Development Tools used in this website
