@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>9 Must Try Restaurants in Tacoma</title>
+    <title>6 Must-Try Restaurants in 6th Ave Tacoma</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -42,7 +42,6 @@
         .bd-mode-toggle .dropdown-menu .active .bi {
             display: block !important;
         }
-
     </style>
 </head>
 
@@ -54,16 +53,16 @@
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
                         <h4>About</h4>
-                        <p class="text-body-secondary">Add some information about the album below, the author, or any
-                            other background context. Make it a few sentences long so folks can pick up some informative
-                            tidbits. Then, link them off to some social networking sites or contact information.</p>
+                        <p class="text-body-secondary">This web page was created for the final project of my Advanced
+                            Javascript class.<br>
+                            However, all the informations about the restaurants are authentic. <br>
+                            You should try them if you are reading this message :)</p>
                     </div>
                     <div class="col-sm-4 offset-md-1 py-4">
                         <h4>Contact</h4>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                            <li><a href="#" class="text-white">Like on Facebook</a></li>
-                            <li><a href="#" class="text-white">Email me</a></li>
+                            <li>Uju Krallum</li>
+                            <li><a href="mailto:umkrall@gmail.com" class="text-white">umkrall@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -74,7 +73,7 @@
         <div class="navbar navbar-dark bg-dark shadow-sm">
             <div class="container">
                 <a href="#" class="navbar-brand d-flex align-items-center">
-                    <strong>9 Must Try Restaurants in Tacoma</strong>
+                    <strong>6 Must-Try Restaurants in 6th Ave Tacoma</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
                     aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,9 +87,9 @@
     <main>
         <!-- 중간 하얀색, 내가 맵 넣고 싶은 부분-->
         <section class="py-4 text-center container">
-                <div class="col-12 mx-auto"> 
-                    <div id="map"></div>
-                </div>
+            <div class="col-12 mx-auto">
+                <div id="map"></div>
+            </div>
             </div>
         </section>
 
@@ -98,202 +97,117 @@
             <div class="container">
                 <!-- 그리드 들어가는 부분 3-3-3배열-->
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <!--완성-->
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="kimchi.png" class="bd-placeholder-img card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Kimchi Box">
-                            <div class="card-body">
-                                <p class="card-text"><strong>Kimchi Box</strong> offers simple, authentic Korean food at a reasonable price. My favorites are the Spicy Pork Box and Rose Duk-bok-ki.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a href="https://maps.app.goo.gl/eX5kVtLnE3mcg4K68" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
-                                    </div>
-                                    <small class="text-body-secondary">4916 Center St Ste D, Tacoma, WA 98409</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="balcon.png" class="bd-placeholder-img card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Kimchi Box">
+                            <img src="pic/balcon.png" class="bd-placeholder-img card-img-top"
+                                style="width: 100%; height: 225px; object-fit: cover;" alt="Balcon Express">
                             <div class="card-body">
-                                <p class="card-text"><strong>Balcon Express</strong> is family-owned Salvadoran restaurant specializing in pupusas, burritos & tacos. My favorite is putaco.</p>
+                                <p class="card-text"><strong>Balcon Express</strong> is family-owned Salvadoran
+                                    restaurant specializing in pupusas, burritos & tacos. My favorite is putaco.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="https://maps.app.goo.gl/43KfUgWYUPodtEZbA" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
+                                        <a href="https://maps.app.goo.gl/43KfUgWYUPodtEZbA" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary">View</a>
                                     </div>
                                     <small class="text-body-secondary">3102 6th Ave, Tacoma, WA 98406</small>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--2-->
+
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="field.png" class="bd-placeholder-img card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Kimchi Box">
+                            <img src="pic/la.png" class="bd-placeholder-img card-img-top"
+                                style="width: 100%; height: 225px; object-fit: cover;" alt="La Cà Bar">
                             <div class="card-body">
-                                <p class="card-text"><strong>Field Bar & Bottle Shop</strong> has an fascinating and unique food, wine and cocktail menu and it is changed every season!</p>
+                                <p class="card-text"><strong>La Cà Bar</strong> offers authentic Vietnamese street food
+                                    originates from Thua Thien Huế. My favorites are the Bánh Xèo and Bún Thịt Nướng.
+                                </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="https://maps.app.goo.gl/ywoHsin5f3ztV74j9" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
+                                        <a href="https://maps.app.goo.gl/FYgYHAm8YQzB1WGg9" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary">View</a>
+                                    </div>
+                                    <small class="text-body-secondary">606 S Junett St, Tacoma, WA 98405</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="pic/sha.png" class="bd-placeholder-img card-img-top"
+                                style="width: 100%; height: 225px; object-fit: cover;" alt="Shakabrah">
+                            <div class="card-body">
+                                <p class="card-text"><strong>Shakabrah</strong> is a casual breakfast spot with hearty
+                                    egg dishes & pancakes, plus burgers & sandwiches at lunch. I like their potatoes!
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://maps.app.goo.gl/qMaJRtcQReLCi78y8" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary">View</a>
+                                    </div>
+                                    <small class="text-body-secondary">2618 6th Ave, Tacoma, WA 98406</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="pic/field.png" class="bd-placeholder-img card-img-top"
+                                style="width: 100%; height: 225px; object-fit: cover;" alt="Field Bar & Bottle Shop">
+                            <div class="card-body">
+                                <p class="card-text"><strong>Field Bar & Bottle Shop</strong> has an fascinating and
+                                    unique food, wine and cocktail menu and it is changed every season!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://maps.app.goo.gl/ywoHsin5f3ztV74j9" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary">View</a>
                                     </div>
                                     <small class="text-body-secondary">2614 6th Ave, Tacoma, WA 98406</small>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--3-->
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
+                            <img src="pic/pizza.png" class="bd-placeholder-img card-img-top"
+                                style="width: 100%; height: 225px; object-fit: cover;" alt="State Street">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><strong>State Street</strong> is neighborhood bar serving craft
+                                    beer, juicy natural wines and Neapolitan style pizza. My favorite is Margherita.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        <a href="https://maps.app.goo.gl/R28FSRbB566PrPt1A" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary">View</a>
                                     </div>
-                                    <small class="text-body-secondary">9 mins</small>
+                                    <small class="text-body-secondary">606 N State St, Tacoma, WA 98403</small>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--4-->
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
+                            <img src="pic/seou.png" class="bd-placeholder-img card-img-top"
+                                style="width: 100%; height: 225px; object-fit: cover;" alt="Burger Seoul">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><strong>Burger Seoul</strong> has Korean-inspired burgers that can
+                                    appeal to everybody. My favorite is Fire soul and Saeuji.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        <a href="https://maps.app.goo.gl/AnTPajn3CsrQKaqW8" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary">View</a>
                                     </div>
-                                    <small class="text-body-secondary">9 mins</small>
+                                    <small class="text-body-secondary">1701 Division Ave, Tacoma, WA 98403</small>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--5-->
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-body-secondary">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--6-->
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-body-secondary">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--7-->
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-body-secondary">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--8-->
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-body-secondary">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </main>
-
-    <footer class="text-body-secondary py-5">
-        <div class="container">
-            <p class="float-end mb-1">
-                <a href="#">Back to top</a>
-            </p>
-        </div>
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

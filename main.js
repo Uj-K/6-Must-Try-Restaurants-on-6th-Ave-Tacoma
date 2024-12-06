@@ -1,4 +1,4 @@
-var map = L.map('map').setView([47.25, -122.48], 13);
+var map = L.map('map').setView([47.2556264656504, -122.470873908048], 14.5);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -12,24 +12,9 @@ var restaurants = [
         lng: -122.4615809305217,
     },
     {
-        name: "Cuerno Bravo",
-        lat: 47.2582716481405, 
-        lng: -122.44299593620235,
-    },
-    {
-        name: "Outpost Sandwiches",
-        lat: 47.25369974049884,
-        lng: -122.43727585264476,
-    },
-    {
-        name: "KIMCHI BOX",
-        lat: 47.233645026792736, 
-        lng: -122.5035077446855,
-    },
-    {
-        name: "Wooden City Tacoma",
-        lat: 47.256876343657254, 
-        lng: -122.43962678760512,
+        name: "La Cà Bar",
+        lat: 47.254969451498376,
+        lng: -122.47515606626546,
     },
     {
         name: "State Street",
@@ -37,9 +22,9 @@ var restaurants = [
         lng:  -122.46611616001823,
     },
     {
-        name: "Salamone’s Pizza",
-        lat: 47.265355619446396, 
-        lng: -122.4474922807633,
+        name: "Shakabrah",
+        lat: 47.25604968807254, 
+        lng: -122.47119693277527,
     },
     {
         name: "Field Bar & Bottle Shop",
@@ -54,7 +39,7 @@ var restaurants = [
 ];
 
 var myIcon = L.icon({
-    iconUrl: 'restaurant.png',
+    iconUrl: 'pic/restaurant.png',
     iconSize: [37, 42],
 });
 
