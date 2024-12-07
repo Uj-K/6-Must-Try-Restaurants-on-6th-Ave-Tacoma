@@ -6,6 +6,4 @@ Using API, framework, library, etc. display my favorite restaurants on a map and
 
 [Bootstrap](https://getbootstrap.com/)
 
-[Google Fonts](https://fonts.google.com/)
-
 [nawicon](https://www.flaticon.com/free-icons/restauran) 
