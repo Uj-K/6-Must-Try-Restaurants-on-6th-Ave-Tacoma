@@ -44,15 +44,6 @@ A responsive, interactive restaurant listing web app showcasing top local dining
 - How to structure visual content for readability and engagement
 - Publishing static projects on GitHub Pages
 
----
 
-## 🙋‍♀️ About Me
-
-Hi, I'm Uju Krallum — a soon-to-be graduate of Clover Park Technical College's Computer Programming program.  
-I enjoy building practical, accessible tools that blend community, culture, and technology.
-
-> ✨ This project is part of my web portfolio that connects real-world utility with responsive, modern design.
-
-📧 [LinkedIn](https://www.linkedin.com/in/uju-krallum-j27)
 
 
