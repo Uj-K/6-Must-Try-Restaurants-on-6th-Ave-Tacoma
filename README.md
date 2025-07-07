@@ -53,6 +53,6 @@ I enjoy building practical, accessible tools that blend community, culture, and 
 
 > ✨ This project is part of my web portfolio that connects real-world utility with responsive, modern design.
 
-📧 Contact: [Email](umkrall@gmail.com) / [LinkedIn](https://www.linkedin.com/in/uju-krallum-j27)
+📧 [LinkedIn](https://www.linkedin.com/in/uju-krallum-j27)
 
 
