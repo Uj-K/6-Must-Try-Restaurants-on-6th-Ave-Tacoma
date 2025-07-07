@@ -33,7 +33,7 @@ A responsive, interactive restaurant listing web app showcasing top local dining
 
 | Web View (Desktop) | Mobile View |
 |--------------------|-------------|
-| ![Web](screenshots/web.png) | ![Mobile](screenshots/mobie.jpg) |
+| ![Web](screenshots/web.png) | ![Mobile](screenshots/mobile.jpg) |
 
 ---
 
