@@ -6,6 +6,15 @@ A responsive, interactive restaurant listing web app showcasing top local dining
 
 ---
 
+
+## 📸 Screenshots
+
+| Web View (Desktop) | Mobile View |
+|--------------------|-------------|
+| ![Web](screenshots/web.png) | ![Mobile](screenshots/mobile.jpg) |
+
+---
+
 ## 🔍 Features
 
 - 📍 **Interactive Map**: View all restaurants on a Leaflet-based map
@@ -27,13 +36,6 @@ A responsive, interactive restaurant listing web app showcasing top local dining
 | [nawicon (Flaticon)](https://www.flaticon.com/free-icons/restauran) | UI iconography |
 | [GitHub Pages](https://pages.github.com/) | Hosting and deployment |
 
----
-
-## 📸 Screenshots
-
-| Web View (Desktop) | Mobile View |
-|--------------------|-------------|
-| ![Web](screenshots/web.png) | ![Mobile](screenshots/mobile.jpg) |
 
 ---
 
